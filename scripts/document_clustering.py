@@ -24,15 +24,15 @@ def text_clustering(text_embeddings):
     return clusters
 
 
-def output_result(texts: List[str], cluster: List, output_path: str):
+def output_result(texts: List[str], clusters: List, output_path: str):
     cluster_df = {
         'text': [],
         'cluster': [],
     }
 
-    for group_id, group in enumerate(res):
+    for group_id, group in enumerate(clusters):
         for idx in group:
-            cluster_df['text'].append(raw_texts[idx])
+            cluster_df['text'].append(texts[idx])
             cluster_df['cluster'].append(group_id)
             
     cluster_df = pd.DataFrame(cluster_df)
