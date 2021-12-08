@@ -1,4 +1,4 @@
-# Data Set Documentation
+# [Data Set Documentation](https://drive.google.com/drive/folders/1lKIp3ZFPtfaE_HUYZioN99a7SYa4wFSp)
 ## comments\_0101\_0831.csv
 This file contains relevant information on all the comments from Jan 1 to Aug 31 on PTT Gossiping Board
 - post\_id: the ID of the post that the comment is under
